@@ -1,0 +1,64 @@
+.recent h1, .recent h2 {
+    transition: opacity 0.3s;
+    color:purple;
+    text-align: center;
+}
+
+.recent h1:hover, .recent h2:hover {
+    animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+}
+
+.work {
+    background: #f9f9f9; /* Lighter card background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 2px 5px rgba(0, 0, 0, 0.2); /* Light shadow with drop shadow */
+    overflow: hidden; /* Prevent overflow of content */
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s; /* Smooth transition */
+    width: 300px; /* Fixed width for cards */
+    text-align: center; /* Center text inside the card */
+}
+
+.work:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow and drop shadow on hover */
+    background: #e0f7fa; /* Change background color on hover */
+}
+
+
+.work img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.work p {
+    padding: 1rem; /* Space around the text */
+    color: #333; /* Text color */
+    transition: color 0.3s; /* Smooth text color transition */
+}
+
+.work:hover p {
+    color: #00796b; /* Change text color on hover */
+}
+#text{
+    padding-right: 70px;
+}
+.work strong{
+    color:purple;
+}
+.work p{
+    color:black;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+  .align{
+    display: flex;
+    flex-direction: row;
+    
+  }  
+    .logo img{
+      
+        height:500px;
+        padding-left: 90px;
+        
+        
+    }
+    .para{
+        color:white;
+        font-size: 2rem;
+       
+    
+    
+        
+    }
+    .para h1{
+        color:white;
+        padding-left: 40px;
+    }
+    .para h2{
+        color:white;
+        padding-left: 90px;
+
+    }
+    .para strong{
+        color:purple;
+
+    }
+    #text{
+        color:white;
+        font-weight: 600;
+        font-style:oblique;
+        padding-left: 52px;
+    }

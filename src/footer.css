@@ -1,0 +1,51 @@
+/* footer.css */
+.copy {
+    background-color: #282c34; /* Dark background */
+    opacity: 40%;
+   
+    display: flex;
+    flex-direction: row;
+   
+}
+
+h2 {
+    padding-left: 120px;
+    margin: 0; /* No margin */
+}
+
+h3 {
+   padding-left: 290px;
+    margin: 5px 0 0; /* Margin for spacing */
+}
+
+.mail a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:white; /* Link color */
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    
+    
+}
+
+.mail a:hover {
+    color:purple; /* Change color on hover */
+}
+
+.bi {
+    margin-right: 55px; /* Space between icon and text */
+  
+        height: 40px; /* Set desired height */
+        width: auto; /* Maintain aspect ratio */
+    
+    
+    fill: currentColor; /* Use the current text color */
+}
+.mail{
+    display: flex;
+    justify-content:center;
+    padding-left: 190px;
+    
+
+}

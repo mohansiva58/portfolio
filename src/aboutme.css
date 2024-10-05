@@ -1,0 +1,26 @@
+/* aboutme.css */
+
+div {
+    margin: 20px 0;
+    font-family: Arial, sans-serif; /* Use a clean font */
+    line-height: 1.5; /* Better line spacing for readability */
+}
+
+strong {
+    font-size: 1.5rem; /* Increase size for emphasis */
+    color: #333; /* Dark color for better visibility */
+    text-align: center;
+    padding-left: 470px;
+   
+}
+
+p {
+    font-size: 1rem; /* Regular text size */
+    color: #666; /* Lighter color for less emphasis */
+}
+
+h3 {
+    margin-top: 20px; /* Space above the heading */
+    color: #007BFF; /* Change color for the heading */
+    padding-left: 470px;
+}
